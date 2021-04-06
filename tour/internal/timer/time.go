@@ -12,7 +12,8 @@ const (
 )
 
 func GetNowTime() time.Time {
-	return time.Now()
+	location, _ := time.LoadLocation("Asia/Taipei")
+	return time.Now().In(location)
 }
 
 func GetCalculateTime(currentTimer time.Time, d string) (time.Time, error) {
