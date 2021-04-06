@@ -1,4 +1,4 @@
-module github.com/yuanyu90221go-programming-tour-book/tour
+module github.com/yuanyu90221/go-programming-tour-book/tour
 
 go 1.12
 

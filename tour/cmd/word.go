@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	word "github.com/yuanyu90221go-programming-tour-book/tour/internal/word"
+	word "github.com/yuanyu90221/go-programming-tour-book/tour/internal/word"
 )
 
 const (
